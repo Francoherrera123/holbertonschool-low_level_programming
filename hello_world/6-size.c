@@ -6,11 +6,10 @@
 
 int main(void)
 {
-	int type[5] = {"char", "int", "long int", "long long int", "float"}
-
-	for (int i = 0; i < type.lenght; i++)
-	{
-		printf("Size of a ", type[i], ":", "%lu\n", sizeof(type[i]));
-}
+	printf("Size of a char %lu\n", sizeof(char));
+	printf("Size of a int %lu\n", sizeof(int));
+	printf("Size of a long int %lu\n", sizeof(long int));
+	printf("Size of a long long int %lu\n", sizeof(long long int));
+	printf("Size of a float %lu", sizeof(float));
 
 }
