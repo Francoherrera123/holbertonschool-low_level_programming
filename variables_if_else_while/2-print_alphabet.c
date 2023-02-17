@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+ /**
+   * main - Entry point
+   *
+   * Return: Always 0 (Success)
+   */
+int
+main(void) /*this main does something */
+{
+	for (i = 97; i <= 122; i++)
+	{
+		putchar("%c", i)
+	}
+
+	return (0);
+}
