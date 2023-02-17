@@ -14,7 +14,7 @@ main(void) /*this main does something */
 	{
 		putchar(i);
 
-		if (i < 9)
+		if (i < 57)
 		{
 			putchar(44);
 			putchar(32);
