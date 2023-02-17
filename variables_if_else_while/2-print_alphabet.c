@@ -14,6 +14,7 @@ main(void) /*this main does something */
 	{
 		putchar(i);
 	}
+		putchar('\n');
 
 	return (0);
 }
