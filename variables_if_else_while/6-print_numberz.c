@@ -17,5 +17,4 @@ main(void) /*this main does something */
                 putchar('\n');
 
         return (0);
-}
-~  
+}  
