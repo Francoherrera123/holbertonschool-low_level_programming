@@ -10,7 +10,7 @@ main(void) /*this main does something */
 {
 	for (i = 97; i <= 122; i++)
 	{
-		putchar(i)
+		putchar(i);
 	}
 
 	return (0);
