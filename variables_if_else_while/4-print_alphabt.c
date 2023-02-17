@@ -10,7 +10,7 @@ main(void) /*this main does something */
 {
 	int i;
 
-	for (int i = 97; i <= 122; i++)
+	for (i = 97; i <= 122; i++)
 	{
 		if (i != 101 && i != 113)
 		{
