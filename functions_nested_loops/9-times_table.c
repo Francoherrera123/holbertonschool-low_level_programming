@@ -1,24 +1,24 @@
 #include "main.h"
 /**
- * times_table - Entry point
+ * times_table - Print the 9 times table.
  */
 void times_table(void)
 {
-	int num = 0, multiple )= 0;
+	int num = 0, multiple = 0;
 
 	while (num < 10)
 	{
 		int result = num * multiple;
 
-		if (multi > 0)
+		if (multiple > 0)
 		_putchar((result / 10) ? result / 10 + '0' : ' ');
 		_putchar(result % 10 + '0');
 
-		if (multi < 9)
+		if (multiple < 9)
 		{
-			 _putchar(',');
-			 _putchar(' ');
-			 multiple++;
+			_putchar(',');
+			_putchar(' ');
+			multiple++;
 		}
 		else
 		{

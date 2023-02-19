@@ -4,27 +4,27 @@
  */
 void times_table(void)
 {
-	int digit = 0, multiplicate = 0;
+	int num = 0, multiple = 0;
 
-	while (digit < 10)
+	while (num < 10)
 	{
-		int result = digit * multiplicate;
+		int result = num * multiple;
 
-		if (multiplicate > 0)
+		if (multiple > 0)
 		_putchar((result / 10) ? result / 10 + '0' : ' ');
 		_putchar(result % 10 + '0');
 
-		if (multiplicate < 9)
+		if (multiple < 9)
 		{
 			_putchar(',');
 			_putchar(' ');
-			multiplicate++;
+			multiple++;
 		}
 		else
 		{
 			_putchar('\n');
-			multiplicate = 0;
-			digit++;
+			multiple = 0;
+			num++;
 		}
 	}
 }
