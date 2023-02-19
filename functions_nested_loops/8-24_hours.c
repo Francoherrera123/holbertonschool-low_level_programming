@@ -1,11 +1,11 @@
-include "main.h"
+#include "main.h"
 
 /**
   * jack_bauer - Entry point
   *
   * Return: Always 0 (Success)
   */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int hour;
 
