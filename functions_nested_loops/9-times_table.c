@@ -2,23 +2,30 @@
 
 /**
  * times_table - Entry point
- *
- * Return: Always 0 (Success)
  */
 void times_table(void)
 {
-	int loop;
-	int table;
+	int num = 0, multiiple )= 0;
 
-	for (table = 0; table < 10; table++)
+	while (num < 10)
 	{
-		for (loop = 0; loop < 10; loop++)
+		int result = num * multiple;
+
+		if (multi > 0)
+		_putchar((result / 10) ? result / 10 + '0' : ' ');
+		_putchar(result % 10 + '0');
+
+		if (multi < 9)
 		{
-			int result = loop * table;
-			_putchar(result);
-			_putchar(44);
-			_putchar(32);
+			 _putchar(',');
+			 _putchar(' ');
+			 multi++;
 		}
-		_putchar('\n');
+		else
+		{
+			_putchar('\n');
+			multi = 0;
+			num++;
+		}
 	}
 }
