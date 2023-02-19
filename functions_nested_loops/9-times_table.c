@@ -14,7 +14,8 @@ void times_table(void)
 	{
 		for (loop = 0; loop < 10; loop++)
 		{
-			_putchar(loop * table);
+			int result = loop * table;
+			_putchar(result);
 			_putchar(44);
 			_putchar(32);
 		}
