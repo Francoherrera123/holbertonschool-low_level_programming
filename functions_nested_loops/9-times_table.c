@@ -5,7 +5,7 @@
  */
 void times_table(void)
 {
-	int num = 0, multiiple )= 0;
+	int num = 0, multiple )= 0;
 
 	while (num < 10)
 	{
@@ -19,12 +19,12 @@ void times_table(void)
 		{
 			 _putchar(',');
 			 _putchar(' ');
-			 multi++;
+			 multiple++;
 		}
 		else
 		{
 			_putchar('\n');
-			multi = 0;
+			multiple = 0;
 			num++;
 		}
 	}
