@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  *  print_array - prints a string and reverse it
  *  @a: int
