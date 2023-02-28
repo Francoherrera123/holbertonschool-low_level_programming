@@ -7,14 +7,16 @@
  */
 void print_array(int *a, int n)
 {
-	int b;
+	int b, c;
 
 	for (b = 0; b < n; b++)
 	{
-
-		printf("%d", a[b]);
-		printf(",");
-		printf(" ");
+		if (b < 4)
+		{
+			printf("%d", a[b]);
+			printf(",");
+			printf(" ");
+		}
 		
 	}
 	 _putchar('\n');
