@@ -7,14 +7,15 @@
  */
 void print_array(int *a, int n)
 {
+	int b;
 
-	while (a[n])
+	for (b = 0; b < n; b++)
 	{
 
-		_putchar(a[n]);
+		_putchar(a[b]);
 		_putchar(',');
 		_putchar(' ');
-		n++;
+		
 	}
 	 _putchar('\n');
 }
