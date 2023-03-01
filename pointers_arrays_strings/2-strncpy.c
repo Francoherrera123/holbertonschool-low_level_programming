@@ -19,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[destCont] = src[destCont];
 
-		if (src[contSrc] == '\0')
+		if (src[destCont] == '\0')
 			break;
 
 		destCont++;
