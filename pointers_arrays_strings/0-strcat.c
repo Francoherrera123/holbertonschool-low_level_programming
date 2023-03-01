@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcpy - Copies the string pointed to by src
+ * *_strcat - Copies the string pointed to by src
  *
  * @dest: *char
  * @src: *char
@@ -8,13 +8,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i = 0;
+	int destCont = 0;
+	int contSrc = 0;
 
-	while (src[i])
+	while (dest[destCont])
+		destCont++;
+
+	while (src[contSrc])
 	{
-		dest[i] = src[i];
-		i++;
+		dest[destCont] = src[contSrc];
+		destCont++;
+		contSrc++;
 	}
-	dest[i] = NULL;
+
 	return (dest);
 }
