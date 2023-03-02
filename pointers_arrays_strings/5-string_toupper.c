@@ -10,7 +10,6 @@
 char *string_toupper(char *chango)
 {
 	int recor = 0;
-	int i;
 
 	while (chango[recor])
 	{
