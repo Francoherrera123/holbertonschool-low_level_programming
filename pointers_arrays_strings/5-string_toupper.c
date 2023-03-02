@@ -18,7 +18,6 @@ char *string_toupper(char *chango)
 			chango[recor] -= 32;
 		}
 		recor++;
-		
 	}
 	return (chango);
 }
