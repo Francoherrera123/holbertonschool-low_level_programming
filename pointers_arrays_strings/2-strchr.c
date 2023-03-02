@@ -14,10 +14,10 @@ char *_strchr(char *s, char c)
 	for (; s[recor] != '\0'; recor++)
 	{
 		if (s[recor] == c)
-			return (s + recor);
+			return (recor + s);
 	}
-	if (c == 0)
-		return (s + 1);
+	if (c == '\0')
+		return (recor + s);
 
 
 	return (0);
