@@ -13,7 +13,7 @@ char *cap_string(char *upp)
 
 	while (upp[recor])
 	{
-		if (upp[recor] >= 97 && upp[recor] <= 122 == upp[0])
+		if (upp[recor] >= 97 && (upp[recor] <= 122 == upp[0]))
 			upp[recor] -= 32;
 
 		if (upp[recor] >= 97 && upp[recor] <= 122)
