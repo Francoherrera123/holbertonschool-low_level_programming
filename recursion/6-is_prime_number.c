@@ -17,5 +17,5 @@ int is_prime_number_int(int n, int a)
  */
 int is_prime_number(int n)
 {
-	return (is_prime_number(n, 1));
+	return (is_prime_number_int(n, 1));
 }
