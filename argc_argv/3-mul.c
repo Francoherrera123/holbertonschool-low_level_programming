@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  *main - Entry Point
  *@argc: Char
@@ -7,21 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int sum;
-	int value1;
-	int value2;
-
-	if (argv[1] != NULL && argv[2] != NULL)
+	if (argc < 3)
 	{
-		value1 = argv[1];
-		value2 = argv[2];
-		sum = value1 * value2;
-		printf("%d\n", sum);
-		return (0);
-	}
-	else
-	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	return (0);
 }
