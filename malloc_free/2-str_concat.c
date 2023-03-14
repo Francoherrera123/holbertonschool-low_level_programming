@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * *str_concat - Entry Point
- *@s1
- *@s2
+ *@s1: char
+ *@s2: char
  *Return: p
  */
 char *str_concat(char *s1, char *s2)
@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (; s2[a + b]; b++)
 		arry[a + b] = s2[b];
-	
+
 	arry[a + b] = '\0';
 
 	return (arry);
