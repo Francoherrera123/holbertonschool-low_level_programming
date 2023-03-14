@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	for (; s1[a] != '\0'; a++)
 		arry[a] = s1[a];
 
-	for (; s2[a + b]; b++)
+	for (; s2[b]; b++)
 		arry[a + b] = s2[b];
 
 	arry[a + b] = '\0';
