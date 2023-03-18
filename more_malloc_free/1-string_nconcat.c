@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (; s2[cont2]; cont2++)
 		;
 
-	if (n >= con2)
+	if (n >= cont2)
 		n = cont2;
 
 	arry = malloc((cont1 + n + 6) * sizeof(char));
