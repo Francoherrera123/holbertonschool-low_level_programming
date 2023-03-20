@@ -7,7 +7,7 @@
  * Return: Return 0 Success
  */
 
-int main()
+int main(void)
 {
 	printf("%s\n", FILE_NAME);
 	return (0);
