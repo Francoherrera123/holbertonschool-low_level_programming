@@ -20,7 +20,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
 /* task 3*/
-typedef struct dog dog_t:
+typedef struct dog dog_t;
 
 /* task 4*/
 dog_t *new_dog(char *name, float age, char *owner);
