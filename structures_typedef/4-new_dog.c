@@ -17,9 +17,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *point;
 
 	point = malloc(sizeof(dog_t));
-
-	if (point == NULL)
-		return (NULL);
+		if (point == NULL)
+			return (NULL);
 
 	save_owner = strlen(owner);
 	save_name = strlen(name);
