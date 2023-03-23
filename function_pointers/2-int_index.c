@@ -3,7 +3,7 @@
 
 /**
  * int_index - Entry point
- * 
+ *
  * @array: Data structure
  * @size: Size of array
  * @cmp: Pointer to Function
