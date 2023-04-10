@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * struct dlistint_s - doubly linked list
+ * struct dlistint_t - doubly linked list
  * @n: integer
  * @prev: points to the previous node
  * @next: points to the next node
@@ -15,8 +15,8 @@
 typedef struct dlistint_t
 {
 	int n;
-	struct dlistint_s *prev;
-	struct dlistint_s *next;
+	struct dlistint_t *prev;
+	struct dlistint_t *next;
 }dlistint_t;
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
