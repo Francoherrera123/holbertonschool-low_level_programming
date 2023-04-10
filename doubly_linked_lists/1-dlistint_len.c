@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * dlist_len - Length of a List
+ * dlistint_len - Length of a List
  * @h: List
  * Return: return number of nodes
  */
@@ -14,5 +14,5 @@ size_t dlistint_len(const dlistint_t *h)
 		lenght++;
 		h = h->next;
 	}
-	return (lenght)
+	return (lenght);
 }
