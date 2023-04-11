@@ -12,7 +12,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 
 	if (index > 64)
 		return (-1);
-	for (; i>index; i++)
+	for (; i > index; i++)
 		power *= 2;
 	if (((*n >> index) & 1))
 		*n -= power;
