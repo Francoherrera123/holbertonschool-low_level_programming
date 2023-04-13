@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * append_text_to_file - creates a file
+ * append_text_to_file - create a file
  * @filename: file name
  * @text_content: is a string
  * Return: 1 or -1
