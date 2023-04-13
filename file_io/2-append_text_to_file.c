@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * append_text_to_file - create a file
- * @filename: file name
+ * @filename:name of the file to create
  * @text_content: is a string
  * Return: 1 or -1
  */
