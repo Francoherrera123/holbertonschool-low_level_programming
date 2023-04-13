@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 			dprintf(2, "Error: Can't read from file %s\n", argv[1]), exit(98);
 	}
 	if (close(file_from) == -1 || close(file_to) == -1)
-		dprintf(2, "ERROR: Can't close fd %d\n", file_from), exit(100);
+		dprintf(2, "Error: Can't close fd %d\n", file_from), exit(100);
 	return (0);
 
 }
