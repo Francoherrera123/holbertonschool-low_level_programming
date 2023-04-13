@@ -1,8 +1,8 @@
 #include "main.h"
 #include <string.h>
 /**
- * create_file: creates a file
- * @filename: file name
+ * create_file - creates a files
+ * @filename: name of the file to create
  * @text_content: is a string
  * Return: 1 or -1
  */
