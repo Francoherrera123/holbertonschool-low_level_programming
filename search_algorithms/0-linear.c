@@ -18,8 +18,6 @@ int linear_search(int *array, size_t size, int value)
 
 		if (array[count] == value)
 			break;
-
-		count++;
 	}
 	return ((count < size) ? (int)count : -1);
 }
